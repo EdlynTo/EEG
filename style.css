@@ -6,16 +6,26 @@
 
 h1{
     color: #426696;
-    font-size: 3rem;
+    font-size: 2.2rem;
     opacity: 0.8;
 }
-h2,p{
+h2{
     color: #658ec6;
     opacity: 0.8;
 }
 h3{
     color: #426696;
     opacity: 0.8;
+}
+p,li{
+    color: #658ec6;
+    opacity: 0.8;
+    font-size: 120%
+}
+
+li{
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 main{
@@ -30,7 +40,7 @@ main{
 .glass{
     background: white;
     min-height: 80vh;
-    width : 74%;
+    width : 78%;
     background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.863),
@@ -41,6 +51,7 @@ main{
     backdrop-filter: blur(2rem);
     display: flex;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .circle1,.circle2{
@@ -66,10 +77,9 @@ main{
     left: 6%
 }
 
-#dogatar{
-    border-radius: 50%;
-    height: 4.8rem;
-    width: 5rem;
+.title{
+    padding-bottom: 1.5rem;
+
 }
 .dashboard{
     flex: 1;
@@ -92,26 +102,41 @@ main{
     margin: 1rem 0rem;
     padding: 1rem 2rem;
     align-items: center;
+    margin-top: 0.5rem;
 }
+
+a{
+    display: inline-block;
+    color: #658ec6;
+    opacity: 0.8;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+}
+
 .link h2{
     padding: 0rem 2rem;
 }
 .about{
     flex: 2;
 }
-.join{
-    margin-top: 2rem;
+.icon{
     background: linear-gradient(to right top, #65dfc9, #6cdbed, rgb(213, 199, 240));
     border-radius: 2rem;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
 }
 /* .join img{
     max-width: 60%;
 } */
-.join h2{
-    color: white;
-}
+
 
 /* ABOUT */
 .status{
@@ -127,6 +152,83 @@ main{
     /* justify-content: space-evenly; */
 }
 
+#EarthClipart{
+    height: 26%;
+    width: 26%;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #426696;
+    margin-right: 1.5rem;
+    margin-top: 5.3%;
+}
+
+#EnergyClipart{
+    height: 35%;
+    width: 28%;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #426696;
+    margin-right: 1.5rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+}
+
+#ElevatorClipart{
+    height: 165px;
+    width: 165px;
+    border-style: solid;
+    border-radius: 2rem;
+    border-width: 0.3rem;
+    border-color: #426696;
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+#CityClipart{
+    height: 165px;
+    width: 165px;
+    border-style: solid;
+    border-radius: 2rem;
+    border-width: 0.3rem;
+    border-color: #426696;
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+#design{
+    border-radius: 1rem;
+    height: 90%;
+    width: 90%;
+}
+
+#designPic{
+    margin-left: 15%;
+    border-radius: 1rem;
+    height: 70%;
+    width: 70%;
+}
+
+#poster{
+    margin-left: 1rem;
+    height: 260px;
+    width: 200px;
+}
+
+#liverBite{
+    height: 165px;
+    width: 165px;
+    border-style: solid;
+    border-radius: 2rem;
+    border-width: 0.3rem;
+    border-color: #426696;
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+}
+
 .card{
     display: flex;
     background: linear-gradient(to left top,
@@ -135,7 +237,7 @@ main{
     );
     border-radius: 1rem;
     margin-bottom: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 6px 6px 30px rgba(107, 101, 101, 0.4);
     justify-content: space-between;
 }
